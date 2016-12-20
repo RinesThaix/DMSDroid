@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DMS Droid</string>
+    <string name="menu_pdate">Обновить</string>
+    <string name="update">Обновить</string>
+    <string name="loading">Загрузка..</string>
+    <string name="onlinep">Онлайн</string>
+    <string name="loadp">Нагрузка</string>
+    <string name="playerinfo">Найти игрока</string>
+    <string name="playername">Ник игрока</string>
+    <string name="change_account">Выйти</string>
+
+    <!-- Strings related to login -->
+    <string name="login_username">Логин</string>
+    <string name="login_password">Пароль</string>
+    <string name="login_button">Авторизоваться</string>
+    <string name="login_passwd">Войти</string>
+
+</resources>

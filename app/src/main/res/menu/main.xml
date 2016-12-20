@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/update"
+        android:title="@string/update"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_popup_sync"/>
+    <item
+        android:id="@+id/onlinep"
+        android:title="@string/onlinep" />
+    <item
+        android:id="@+id/loadp"
+        android:title="@string/loadp" />
+    <item
+        android:id="@+id/playerinfo"
+        android:title="@string/playerinfo" />
+    <item
+        android:id="@+id/change_account"
+        android:title="@string/change_account" />
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dms_gold">#BA7E16</color>
+    <color name="dms_gold_lighten">#E69D20</color>
+    <color name="dms_blue">#0097D0</color>
+    <color name="dms_blue_lighten">#00AEEF</color>
+</resources>

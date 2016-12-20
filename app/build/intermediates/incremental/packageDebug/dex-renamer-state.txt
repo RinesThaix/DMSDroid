@@ -1,0 +1,7 @@
+#Tue Dec 20 05:17:47 MSK 2016
+base.0=/Users/RinesThaix/Desktop/Coding/Android/dms_adm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_293dc10bc0b01d12ecd175605311dee9eab9afc5
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/RinesThaix/Desktop/Coding/Android/dms_adm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9f8e393a1b9c9a89d03c48bcec00455e78325b75/classes.dex
+base.1=/Users/RinesThaix/Desktop/Coding/Android/dms_adm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9f8e393a1b9c9a89d03c48bcec00455e78325b75
+file.0=/Users/RinesThaix/Desktop/Coding/Android/dms_adm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_293dc10bc0b01d12ecd175605311dee9eab9afc5/classes.dex
