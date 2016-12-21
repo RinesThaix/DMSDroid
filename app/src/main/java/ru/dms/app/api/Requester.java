@@ -49,6 +49,7 @@ public class Requester {
         try {
             return new JSONObject(process(BASE_URL + params.toString()));
         }catch(Exception ex) {
+            ex.printStackTrace();
             return null;
         }
     }

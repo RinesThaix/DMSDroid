@@ -40,6 +40,7 @@ import ru.dms.app.gui.ExactServerView;
 import ru.dms.app.gui.MachineView;
 import ru.dms.app.gui.PlayerView;
 import ru.dms.app.gui.ServerView;
+import ru.dms.app.updater.Notificator;
 import ru.dms.app.updater.UpdateService;
 
 /**
@@ -90,6 +91,7 @@ public class MainView extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+        Notificator.init();
         preloadAuthorizationPage();
         if(DataProvider.loadCache()) {
             if(ModuleManager.getActiveModule() == ModuleManager.Module.AUTHORIZATION)
@@ -192,6 +194,10 @@ public class MainView extends AppCompatActivity {
                 showAuthorizationPage();
                 DataProvider.saveCache();
                 return true;
+            case R.id.look_foor_overloading:
+                item.setChecked(!item.isChecked());
+                Notificator.setLookForOverloadedMachines(item.isChecked());
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -208,7 +214,7 @@ public class MainView extends AppCompatActivity {
         startService(new Intent(getApplicationContext(), UpdateService.class));
     }
 
-    private void showHint(String text) {
+    public void showHint(String text) {
         Toast.makeText(getApplicationContext(), text, Toast.LENGTH_SHORT).show();
     }
 

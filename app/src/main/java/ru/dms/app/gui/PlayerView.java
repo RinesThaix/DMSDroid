@@ -53,7 +53,6 @@ public class PlayerView {
             addLine(ll, "Доступ заблокирован: нет");
         addLine(ll, "Всего блокировок доступа: %d", data.getTotal());
         View divider = new View(ll.getContext());
-        divider.setBackgroundColor(Color.WHITE);
         LinearLayout.LayoutParams dividerParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 2);
         ll.addView(divider, dividerParams);
     }

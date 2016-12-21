@@ -60,10 +60,20 @@ public class ServerView extends RelativeLayout {
         this.setOnTouchListener(new OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if(event.getAction() == MotionEvent.ACTION_DOWN)
-                    bottom.getProgressDrawable().setColorFilter(getResources().getColor(R.color.dms_blue_lighten), PorterDuff.Mode.SRC_IN);
-                else if(event.getAction() == MotionEvent.ACTION_CANCEL)
-                    bottom.getProgressDrawable().setColorFilter(getResources().getColor(R.color.dms_gold_lighten), PorterDuff.Mode.SRC_IN);
+                int color = -1;
+                switch(event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        color = R.color.dms_blue_lighten;
+                        break;
+                    case MotionEvent.ACTION_UP:
+                    case MotionEvent.ACTION_CANCEL:
+                        color = R.color.dms_gold_lighten;
+                        break;
+                    default:
+                        break;
+                }
+                if(color != -1)
+                    bottom.getProgressDrawable().setColorFilter(getResources().getColor(color), PorterDuff.Mode.SRC_IN);
                 return false;
             }
         });

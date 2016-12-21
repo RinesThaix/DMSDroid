@@ -5,11 +5,12 @@
     <string name="menu_pdate">Обновить</string>
     <string name="update">Обновить</string>
     <string name="loading">Загрузка..</string>
-    <string name="onlinep">Онлайн</string>
-    <string name="loadp">Нагрузка</string>
+    <string name="onlinep">Статистика онлайна</string>
+    <string name="loadp">Нагрузка серверных машин</string>
     <string name="playerinfo">Найти игрока</string>
     <string name="playername">Ник игрока</string>
     <string name="change_account">Выйти</string>
+    <string name="look_for_overloading">Уведомлять о перегрузке</string>
 
     <!-- Strings related to login -->
     <string name="login_username">Логин</string>

@@ -11,6 +11,10 @@
         android:id="@+id/loadp"
         android:title="@string/loadp" />
     <item
+        android:id="@+id/look_foor_overloading"
+        android:title="@string/look_for_overloading"
+        android:checkable="true"/>
+    <item
         android:id="@+id/playerinfo"
         android:title="@string/playerinfo" />
     <item
